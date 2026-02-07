@@ -1,7 +1,9 @@
 MI INVENTARIO
+
 Aplicación web desarrollada con Laravel para la gestión de inventario, permitiendo administrar productos y registrar movimientos de stock.
 
 REQUISITOS
+
 Antes de ejecutar el proyecto, asegúrate de tener instalado:
 
 - PHP 8.2 o superior
@@ -10,6 +12,7 @@ Antes de ejecutar el proyecto, asegúrate de tener instalado:
 - Base de datos MySQL (o compatible)
 
 CONFIGURACIÓN DEL ENTORNO
+
 - Clona o descomprime el proyecto en tu equipo.
 - Accede a la carpeta del proyecto:
   cd mi-inventario
@@ -21,6 +24,7 @@ CONFIGURACIÓN DEL ENTORNO
   DB_PASSWORD=
 
 INSTALACIÓN DE DEPENDENCIAS
+
 - Ejecuta los siguientes comandos:
   composer install
   npm install
@@ -28,6 +32,7 @@ INSTALACIÓN DE DEPENDENCIAS
   php artisan key:generate
 
 MIGRACIONES Y SEEDERS
+
 - Ejecuta las migraciones para crear las tablas en la base de datos:
   php artisan migrate
 - Puedes ejecutar los seeders con:
@@ -36,6 +41,7 @@ MIGRACIONES Y SEEDERS
   php artisan migrate --seed
 
 EJECUCIÓN DEL PROYECTO
+
 - Inicia el servidor de desarrollo:
   php artisan serve
 - En otra terminal, compila los recursos frontend:
@@ -44,6 +50,7 @@ EJECUCIÓN DEL PROYECTO
   http://localhost:8000
 
 TECNOLOGÍAS UTILIZADAS
+
 - Laravel 12
 - PHP 8.2
 - MySQL
@@ -51,4 +58,5 @@ TECNOLOGÍAS UTILIZADAS
 - Tailwind CSS
 
 AUTOR
+
 Andrés Duque
